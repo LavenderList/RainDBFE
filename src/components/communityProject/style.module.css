@@ -1,0 +1,26 @@
+.project {
+  margin: 4em 0;
+  padding: 0 2em;
+  text-align: center;
+  scroll-margin: 5em 0;
+}
+
+.project h2 {
+  font-weight: 400;
+  font-size: 1.3em;
+  margin: 1em 0;
+}
+
+.project p {
+  margin: 1em 0;
+}
+
+.project img {
+  width: 360px;
+  object-fit: cover;
+  margin: 1em;
+}
+
+.project a {
+  color: #ff8a38;
+}

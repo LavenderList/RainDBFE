@@ -1,0 +1,34 @@
+.select select {
+  width: 250px;
+  height: 50px;
+  outline: none;
+  border-radius: 15px;
+  padding: 0 0.5em;
+  font-size: 1.5em;
+  background: var(--secondary-background-color);
+  border: none;
+  color: var(--primary-text-color);
+  appearance: none;
+}
+
+.select {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 1em;
+}
+
+.select::after {
+  position: absolute;
+  content: "";
+  width: 0.8em;
+  height: 0.5em;
+  background-color: var(--primary-text-color);
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+  right: 15px;
+}
+
+.select option {
+  font-size: 0.8em;
+}

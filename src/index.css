@@ -1,0 +1,20 @@
+:root {
+  --secondary-background-color: #171717;
+  --primary-background-color: #262626;
+  --terciary-background-color: #059669;
+  --primary-text-color: #fff;
+  --secondary-text-color: #a3a3a3;
+  --download-color: #0d9488;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--primary-background-color);
+}

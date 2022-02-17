@@ -1,0 +1,25 @@
+.mods {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.noMods {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  font-size: 2em;
+  color: var(--primary-text-color);
+}
+
+.rollBack {
+  color: var(--primary-text-color);
+  font-size: 1.2em;
+  margin: 1em;
+  text-align: center;
+}
+
+.rollBack a {
+  color: #ff8a38;
+}

@@ -1,0 +1,10 @@
+.communityProjects {
+  color: var(--primary-text-color);
+  text-align: center;
+  margin: 1em;
+}
+
+.communityProjects a {
+  color: #ff8a38;
+  padding: 0.5em;
+}

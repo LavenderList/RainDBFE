@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+  position: sticky;
+  background: var(--secondary-background-color);
+  top: 0%;
+  z-index: 1;
+}
+
+nav img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  image-rendering: pixelated;
+}
+
+nav > a {
+  height: 55px;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul li > a {
+  padding: 0.5em 0.8em;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-size: 1.2em;
+}

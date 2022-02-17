@@ -1,0 +1,46 @@
+.rollback {
+  color: var(--primary-text-color);
+  padding: 0 3em;
+}
+
+.rollback a {
+  color: #ff8a38;
+}
+
+.rollback h1 {
+  font-size: 2em;
+  font-weight: 400;
+  margin: 1em 0;
+  font-style: italic;
+  text-align: center;
+}
+
+.rollback ul {
+  margin: 0 0 1em 0;
+}
+
+.rollback li {
+  text-align: left;
+  margin: 0;
+  font-weight: 400;
+}
+
+.rollback table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  margin: 1em 0;
+  background: var(--secondary-background-color);
+  border-radius: 10px;
+}
+
+.rollback table th {
+  padding: 0.5em 1em;
+  font-weight: 400;
+}
+
+.rollback table tr:nth-child(even) {
+  background-color: var(--primary-background-color);
+  opacity: 85%;
+}

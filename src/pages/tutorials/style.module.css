@@ -1,0 +1,41 @@
+.container {
+  margin: 1.5em;
+  color: var(--primary-text-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 2.5em;
+}
+
+.column1 h1,
+.column2 h1 {
+  font-size: 1.8em;
+  margin: 0 0 0.5em 0;
+}
+
+.column1 p,
+.column2 p {
+  margin: 1em 0;
+  font-size: 0.9em;
+}
+
+.column1 h2,
+.column2 h2 {
+  font-size: 1.4em;
+  font-weight: 400;
+  margin: 0.7em 0;
+}
+
+.column1 ol {
+  margin: 0 1.5em;
+  font-size: 0.9em;
+}
+
+.column1 a,
+.column2 a {
+  color: #ff8a38;
+}
+
+.column2 ul {
+  margin: 0 2em;
+  font-size: 0.9em;
+}

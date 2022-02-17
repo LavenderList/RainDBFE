@@ -1,0 +1,21 @@
+.gallery {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  text-align: center;
+}
+
+.title {
+  margin: 1.5em 0;
+}
+
+.title h1 {
+  font-size: 1.9em;
+  margin: 0.5em;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

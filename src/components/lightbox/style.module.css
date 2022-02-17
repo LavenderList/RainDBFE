@@ -1,0 +1,43 @@
+.active {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.8);
+  animation: fadeIn 0.3s both;
+  z-index: 2;
+}
+
+.active p {
+  text-align: left;
+}
+
+.thumbnail img {
+  max-width: 100%;
+  width: 1220px;
+  height: auto;
+  max-height: 560px;
+  object-fit: cover;
+}
+
+.lightBox {
+  margin: 0.2em;
+  width: 360px;
+  height: 250px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
