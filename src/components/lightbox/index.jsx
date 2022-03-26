@@ -3,9 +3,8 @@ import styles from "./style.module.css";
 
 const Lightbox = ({ children, src, author, Wrapper = "div", index, total }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [currentImage, setCurrentImage] = useState(index);
-
   const handleClick = () => setIsOpen(!isOpen);
+
   return (
     <Wrapper onClick={handleClick} className={styles.lightBox}>
       {children}
@@ -17,7 +16,7 @@ const Lightbox = ({ children, src, author, Wrapper = "div", index, total }) => {
           <div className={styles.description}>
             <p>Author: {author}</p>
             <p>
-              {currentImage + 1} of {total}
+              {index + 1} of {total}
             </p>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Mod from "../mod";
 import { Link } from "wouter";
@@ -10,7 +10,7 @@ import Loading from "../loading";
 
 const Mods = () => {
   const { mods } = useContext(ModContext);
-  const { modCategory, show, search, setModCategory, setShow } =
+  const { modCategory, show, search, setModCategory } =
     useContext(FilterContext);
   useEffect(() => {
     setModCategory("1.5");
@@ -24,27 +24,20 @@ const Mods = () => {
       switch (show) {
         case "all":
           return mods[modCategory];
-          break;
         case "newest":
           return [...mods[modCategory]].sort((a, b) =>
             b.order > a.order ? 1 : -1
           );
-          break;
         case "tools":
           return mods[modCategory].filter((mod) => mod.tool === true);
-          break;
         case "contentMods":
           return mods[modCategory].filter((mod) => mod.content === true);
-          break;
         case "hookPatch":
           return mods[modCategory].filter((mod) => mod.patch === true);
-          break;
         case "standalone":
           return mods[modCategory].filter((mod) => mod.standalone === true);
-          break;
         default:
           return mods[modCategory];
-          break;
       }
     };
 

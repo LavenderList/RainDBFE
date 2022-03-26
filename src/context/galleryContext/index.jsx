@@ -6,8 +6,6 @@ export const GalleryContext = createContext();
 export const GalleryProvider = ({ children }) => {
   const [gallery, setGallery] = useState(galleryData);
 
-  const handleClick = () => setIsOpen(!isOpen);
-
   return (
     <GalleryContext.Provider
       value={{

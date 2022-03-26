@@ -60,7 +60,8 @@ main {
 }
 
 .downloadInfo {
-  background-color: var(--primary-background-color);
+  background-color: var(--secondary-background-color-rgba);
+  backdrop-filter: blur(8.5px);
   width: 420px;
   padding: 1em;
   margin: 1em;
@@ -118,7 +119,7 @@ main {
 
 .title h2 {
   margin: 0;
-  max-width: 250px;
+  max-width: 350px;
 }
 
 .title h3 {

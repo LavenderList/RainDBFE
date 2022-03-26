@@ -53,7 +53,10 @@ const Mod = (props) => {
         {props.author_ext ? (
           <Tooltip placement="bottom" overlay={<span>{props.author_ext}</span>}>
             <h2>
-              By <span style={{ color: "#f3cd6c" }}>{props.author}</span>
+              By{" "}
+              <span style={{ color: "#f3cd6c", cursor: "default" }}>
+                {props.author}
+              </span>
             </h2>
           </Tooltip>
         ) : (
@@ -74,7 +77,7 @@ const Mod = (props) => {
       <div className={style.description}>
         <h1>
           <a
-            href={`/src/assets/arenas/${props.name}.zip`}
+            href={`assets/arenas/${props.name}.zip`}
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -1,9 +1,4 @@
-import React, {
-  createContext,
-  useEffect,
-  useLayoutEffect,
-  useState,
-} from "react";
+import React, { createContext, useEffect, useState } from "react";
 import { useLocation } from "wouter";
 
 export const FilterContext = createContext();

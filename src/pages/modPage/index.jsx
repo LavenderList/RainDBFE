@@ -1,14 +1,15 @@
-import React, { useContext, useState, useEffect, useLayoutEffect } from "react";
+import React, { useContext, useState, useEffect } from "react";
 import { useRoute, Redirect } from "wouter";
 import { ModContext } from "../../context/modsContext";
-import { FilterContext } from "../../context/filterContext";
 import { Link } from "wouter";
+import { randomMod } from "./random";
+import Loading from "../../components/loading";
 import styles from "./style.module.css";
 import Tooltip from "rc-tooltip";
 import "rc-tooltip/assets/bootstrap.css";
 
 const ModPage = () => {
-  const [match, params] = useRoute("/mod/:version/:name");
+  const [, params] = useRoute("/mod/:version/:name");
   const [isOpen, setIsOpen] = useState(false);
   const [randomModsArray, setRandomModsArray] = useState([]);
   const { mods } = useContext(ModContext);
@@ -16,22 +17,16 @@ const ModPage = () => {
 
   useEffect(() => {
     if (mods) {
-      const randomMod =
-        mods[version][Math.floor(Math.random() * mods[version].length)];
-      const randomMod2 =
-        mods[version][Math.floor(Math.random() * mods[version].length)];
-      const randomMod3 =
-        mods[version][Math.floor(Math.random() * mods[version].length)];
-      setRandomModsArray([randomMod, randomMod2, randomMod3]);
+      setRandomModsArray([
+        randomMod(mods[version]),
+        randomMod(mods[version]),
+        randomMod(mods[version]),
+      ]);
     }
   }, [name, version, mods]);
 
   if (!mods) {
-    return (
-      <div className={styles.loading}>
-        <img src="assets/loading.gif" alt="loading" />
-      </div>
-    );
+    return <Loading />;
   }
   const mod = mods[version].find(
     (mod) =>

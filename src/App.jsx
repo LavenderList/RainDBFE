@@ -33,7 +33,7 @@ function App() {
                 <Route path="/mod/1.8/MoreSlugcats" component={Joke} />
                 <Route path="/mod/:version/:name" component={ModPage} />
                 <Route path="/404" component={Error404} />
-                <Route path="/:rest*">
+                <Route>
                   <Redirect to="/404" />
                 </Route>
               </Switch>
@@ -47,6 +47,8 @@ function App() {
             fontSize: "0.8em",
             textAlign: "center",
             margin: "2em 0",
+            position: "relative",
+            bottom: "0",
           }}
         >
           <h2>
