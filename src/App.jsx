@@ -17,54 +17,52 @@ import Rollback from "./pages/rollback";
 function App() {
   return (
     <div className="App">
-      <Router base="/RainDBFE">
-        <Nav />
-        <ScrollToTop />
-        <ModProvider>
-          <FilterProvider>
-            <GalleryProvider>
-              <Switch>
-                <Route path="/" component={Home} exact />
-                <Route path="/gallery" component={Gallery} />
-                <Route path="/tutorials" component={Tutorials} />
-                <Route path="/submit" component={Submit} />
-                <Route path="/projects" component={Community} />
-                <Route path="/rollback" component={Rollback} />
-                <Route path="/mod/1.8/MoreSlugcats" component={Joke} />
-                <Route path="/mod/:version/:name" component={ModPage} />
-                <Route path="/404" component={Error404} />
-                <Route>
-                  <Redirect to="/404" />
-                </Route>
-              </Switch>
-            </GalleryProvider>
-          </FilterProvider>
-        </ModProvider>
-        <footer
-          className="footer"
-          style={{
-            color: "var(--secondary-text-color)",
-            fontSize: "0.8em",
-            textAlign: "center",
-            margin: "2em 0",
-            position: "relative",
-            bottom: "0",
-          }}
-        >
-          <h2>
-            Original website:{" "}
-            <a
-              href="https://www.raindb.net"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "#ff8a38" }}
-            >
-              Rain DB
-            </a>{" "}
-            By AndrewFM
-          </h2>
-        </footer>
-      </Router>
+      <Nav />
+      <ScrollToTop />
+      <ModProvider>
+        <FilterProvider>
+          <GalleryProvider>
+            <Switch>
+              <Route path="/" component={Home} exact />
+              <Route path="/gallery" component={Gallery} />
+              <Route path="/tutorials" component={Tutorials} />
+              <Route path="/submit" component={Submit} />
+              <Route path="/projects" component={Community} />
+              <Route path="/rollback" component={Rollback} />
+              <Route path="/mod/1.8/MoreSlugcats" component={Joke} />
+              <Route path="/mod/:version/:name" component={ModPage} />
+              <Route path="/404" component={Error404} />
+              <Route>
+                <Redirect to="/404" />
+              </Route>
+            </Switch>
+          </GalleryProvider>
+        </FilterProvider>
+      </ModProvider>
+      <footer
+        className="footer"
+        style={{
+          color: "var(--secondary-text-color)",
+          fontSize: "0.8em",
+          textAlign: "center",
+          margin: "2em 0",
+          position: "relative",
+          bottom: "0",
+        }}
+      >
+        <h2>
+          Original website:{" "}
+          <a
+            href="https://www.raindb.net"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#ff8a38" }}
+          >
+            Rain DB
+          </a>{" "}
+          By AndrewFM
+        </h2>
+      </footer>
     </div>
   );
 }
