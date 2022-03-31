@@ -29,6 +29,7 @@ const Gallery = () => {
               <img
                 src={`assets/gallery/thumbnails/${item.filename}`}
                 title={`Author: ${item.author}`}
+                className={styles.lightBoxThumbnail}
               />
             </Lightbox>
           ))}

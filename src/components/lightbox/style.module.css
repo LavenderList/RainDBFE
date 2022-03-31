@@ -29,7 +29,7 @@
 .lightBox {
   margin: 0.2em;
   width: 360px;
-  height: 250px;
+  max-height: 250px;
 }
 
 @keyframes fadeIn {
