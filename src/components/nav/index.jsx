@@ -61,7 +61,7 @@ const Nav = () => {
           </Link>
         </li>
       </ul>
-      {windowWidth >= 850 ? null : (
+      {windowWidth > 850 ? null : (
         <div
           className={
             burgerActive ? `${styles.burger} ${styles.active}` : styles.burger
