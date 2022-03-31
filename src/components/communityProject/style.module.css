@@ -24,3 +24,9 @@
 .project a {
   color: #ff8a38;
 }
+
+.images {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
