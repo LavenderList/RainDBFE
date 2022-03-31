@@ -1,7 +1,7 @@
 import { ModProvider } from "./context/modsContext";
 import { FilterProvider } from "./context/filterContext";
 import { GalleryProvider } from "./context/galleryContext";
-import { Route, Redirect, Switch, Router } from "wouter";
+import { Route, Redirect, Switch } from "wouter";
 import Home from "./pages/home";
 import Gallery from "./pages/gallery";
 import ModPage from "./pages/modPage";

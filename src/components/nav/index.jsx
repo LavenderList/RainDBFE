@@ -1,9 +1,25 @@
-import React from "react";
-import { Link } from "wouter";
+import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "wouter";
 import styles from "./style.module.css";
 import logo from "../../logo.png";
 
 const Nav = () => {
+  const [burgerActive, setBurgerActive] = useState(false);
+  const [windowWidth, setWindowWidth] = useState();
+  const [location] = useLocation();
+
+  useEffect(() => {
+    setBurgerActive(false);
+  }, [location]);
+
+  window.addEventListener("resize", () => {
+    setWindowWidth(innerWidth);
+  });
+
+  const handleClick = () => {
+    setBurgerActive((burgerActive) => !burgerActive);
+  };
+
   return (
     <nav>
       <Link to="/">
@@ -11,7 +27,7 @@ const Nav = () => {
           <img src={logo} alt="Main logo" />
         </a>
       </Link>
-      <ul>
+      <ul className={burgerActive ? styles.activeNav : null}>
         <li>
           <a href="#">Top</a>
         </li>
@@ -41,6 +57,18 @@ const Nav = () => {
           </Link>
         </li>
       </ul>
+      {windowWidth >= 850 ? null : (
+        <div
+          className={
+            burgerActive ? `${styles.burger} ${styles.active}` : styles.burger
+          }
+          onClick={handleClick}
+        >
+          <div className={styles.line1}></div>
+          <div className={styles.line2}></div>
+          <div className={styles.line3}></div>
+        </div>
+      )}
     </nav>
   );
 };

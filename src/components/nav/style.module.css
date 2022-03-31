@@ -41,3 +41,70 @@ nav ul li > a {
   text-decoration: none;
   font-size: 1.2em;
 }
+
+.burger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+.line1,
+.line2,
+.line3 {
+  width: 35px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+.active .line1 {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.active .line2 {
+  opacity: 0;
+}
+
+.active .line3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.activeNav {
+  display: flex;
+  transform: translateX(0);
+}
+
+@media only screen and (max-width: 850px) {
+  nav {
+    height: 77px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    justify-content: initial;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100vw);
+    transition: transform ease 0.2s;
+    background: var(--secondary-background-color-rgba);
+  }
+
+  nav ul > li {
+    margin: 2em 1em;
+  }
+
+  nav ul > li a:hover {
+    color: #f3cd6c;
+    transition: color 0.2s;
+  }
+}
