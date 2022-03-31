@@ -13,12 +13,14 @@ import Nav from "./components/nav";
 import Error404 from "./pages/404";
 import Joke from "./pages/joke";
 import Rollback from "./pages/rollback";
+import TopBtn from "./components/topBtn";
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <ScrollToTop />
+      <TopBtn />
       <ModProvider>
         <FilterProvider>
           <GalleryProvider>

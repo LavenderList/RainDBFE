@@ -33,9 +33,6 @@ const Nav = () => {
       </Link>
       <ul className={burgerActive ? styles.activeNav : null}>
         <li>
-          <a href="#">Top</a>
-        </li>
-        <li>
           <Link to="/">
             <a>Home</a>
           </Link>
