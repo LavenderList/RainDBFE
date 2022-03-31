@@ -5,7 +5,7 @@ main {
 
 .modContent .thumb img {
   border-radius: 15px;
-  max-width: 400px;
+  width: 420px;
   height: auto;
   image-rendering: pixelated;
   object-fit: cover;
@@ -150,6 +150,7 @@ main {
   }
 
   .modContent .thumb img {
+    max-width: 400px;
     width: 100%;
   }
 
