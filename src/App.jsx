@@ -47,7 +47,6 @@ function App() {
           textAlign: "center",
           margin: "2em 0",
           position: "absolute",
-          bottom: "0",
           left: "50%",
           transform: "translateX(-50%)",
         }}
