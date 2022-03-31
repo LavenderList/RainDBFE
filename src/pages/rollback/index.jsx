@@ -19,8 +19,16 @@ const Rollback = () => {
               DepotDownloader
             </a>{" "}
             command line tool in order to downpatch to earlier versions of Rain
-            World. You can watch this video for instructions on how to use it.
-            The relevant IDs for Rain World are:
+            World. You can watch{" "}
+            <a
+              href="https://www.youtube.com/watch?v=44HBxzC_RTg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              this video
+            </a>{" "}
+            for instructions on how to use it. The relevant IDs for Rain World
+            are:
           </li>
         </ul>
         <div className={styles.information}>
