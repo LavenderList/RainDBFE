@@ -497,7 +497,7 @@
       "author": "SchuhBaum and Bee",
       "type": "Utility",
       "url": "https://drive.google.com/file/d/16mNQ8X0GEo2LodQfK-sO92LMGML6VHDt/view",
-      "thumb": "assets/previes/sbcamerascroll.jpg",
+      "thumb": "assets/previews/sbcamerascroll.jpg",
       "desc": "Creates a smooth, scrolling camera that moves with the slugcat.",
       "mod": true,
       "req": "Requires ConfigMachine to be installed",
