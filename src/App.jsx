@@ -46,8 +46,10 @@ function App() {
           fontSize: "0.8em",
           textAlign: "center",
           margin: "2em 0",
-          position: "relative",
+          position: "absolute",
           bottom: "0",
+          left: "50%",
+          transform: "translateX(-50%)",
         }}
       >
         <h2>
