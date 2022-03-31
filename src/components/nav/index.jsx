@@ -9,11 +9,15 @@ const Nav = () => {
   const [location] = useLocation();
 
   useEffect(() => {
+    setWindowWidth(window.innerWidth);
+  }, []);
+
+  useEffect(() => {
     setBurgerActive(false);
   }, [location]);
 
   window.addEventListener("resize", () => {
-    setWindowWidth(innerWidth);
+    setWindowWidth(window.innerWidth);
   });
 
   const handleClick = () => {
