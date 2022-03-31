@@ -3,18 +3,24 @@ main {
   color: var(--primary-text-color);
 }
 
-.thumb img {
+.modContent .thumb img {
   border-radius: 15px;
-  width: 420px;
+  max-width: 400px;
+  height: auto;
   image-rendering: pixelated;
   object-fit: cover;
-  margin: 0 1em;
+  margin: 1em 0;
+}
+
+.modContent .thumb {
+  position: relative;
 }
 
 .modContent {
   display: flex;
   column-gap: 2em;
-  margin: 1.5em;
+  margin: 1.5em 0.5em;
+  width: 100%;
 }
 
 .author h2 {
@@ -23,7 +29,6 @@ main {
 }
 
 .description p {
-  width: 420px;
   margin: 1em 0;
 }
 
@@ -62,7 +67,9 @@ main {
 .downloadInfo {
   background-color: var(--secondary-background-color-rgba);
   backdrop-filter: blur(8.5px);
-  width: 420px;
+  width: 100%;
+  height: auto;
+  max-width: 420px;
   padding: 1em;
   margin: 1em;
   border-radius: 20px;
@@ -101,13 +108,10 @@ main {
   flex-wrap: wrap;
 }
 
-.modList .thumb {
-  height: 250px;
-}
-
 .modList .thumb img {
-  width: 360px;
-  height: 250px;
+  width: 100%;
+  max-width: 360px;
+  height: auto;
   margin: 0;
   border-radius: 15px 15px 0 0;
 }
@@ -138,16 +142,15 @@ main {
   transition: color 0.2s;
 }
 
-.loading {
-  height: 100%;
-  text-align: center;
-  margin: 1em;
-}
-
 @media screen and (max-width: 1020px) {
   .modContent {
     flex-direction: column;
     position: relative;
+    align-items: center;
+  }
+
+  .modContent .thumb img {
+    width: 100%;
   }
 
   .description {
@@ -156,7 +159,7 @@ main {
 
   .download {
     position: absolute;
-    right: 15px;
-    top: 0;
+    right: 0;
+    top: 10px;
   }
 }

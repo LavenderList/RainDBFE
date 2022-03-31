@@ -28,6 +28,7 @@ const ModPage = () => {
   if (!mods) {
     return <Loading />;
   }
+
   const mod = mods[version].find(
     (mod) =>
       encodeURI(mod.name.replace(/\.|\[|\]|\/|\:/g, " ").replace(/\s/g, "")) ===
