@@ -492,6 +492,17 @@
       "mod": true,
       "order": 182
     },
+    {
+      "name": "SBCameraScroll",
+      "author": "SchuhBaum and Bee",
+      "type": "Utility",
+      "url": "https://drive.google.com/file/d/16mNQ8X0GEo2LodQfK-sO92LMGML6VHDt/view",
+      "thumb": "assets/previes/sbcamerascroll.jpg",
+      "desc": "Creates a smooth, scrolling camera that moves with the slugcat.",
+      "mod": true,
+      "req": "Requires ConfigMachine to be installed",
+      "order": 204
+    },
 
     {
       "name": "Slug Senses",
@@ -772,11 +783,11 @@
     },
 
     {
-      "name": "Downpour",
+      "name": "Forecast",
       "author": "LeeMoriya",
       "type": "Environmental",
-      "url": "https://github.com/LeeMoriya/Downpour/blob/rain/README.md",
-      "thumb": "assets/previews/downpour.png",
+      "url": "https://github.com/LeeMoriya/Forecast/blob/rain/README.md",
+      "thumb": "assets/previews/forecast.png",
       "desc": "A dynamic and configurable weather mod that adds new rain, snow and lightning effects.",
       "req": "Requires ConfigMachine to be installed.",
       "mod": true,
@@ -1229,6 +1240,16 @@
       "mod": true,
       "order": 151
     },
+    {
+      "name": "Unlimited Passage Mod",
+      "author": "AHDog",
+      "type": "Utility",
+      "url": "https://github.com/sudobeans/rw-unlimited-passage-mod/releases/",
+      "thumb": "assets/previews/unlimitedpassage.png",
+      "desc": "Allows the game's fast-travel feature (passage) to be used an unlimited number of times.",
+      "mod": true,
+      "order": 205
+    },
 
     {
       "name": "Carnivore Mod",
@@ -1447,6 +1468,16 @@
       "standalone": true,
       "order": 8
     },
+    {
+      "name": "Rideable Lizards",
+      "author": "NoirCat",
+      "type": "Creature Edits",
+      "url": "https://drive.google.com/file/d/1HMOJj7bzm3ceRX0092febTTcyNtFtJKA/view",
+      "thumb": "assets/previews/rideable.png",
+      "desc": "Adds the ability to grab onto your tamed lizards and ride along with them!",
+      "mod": true,
+      "order": 207
+    },
 
     {
       "name": "No Lizard Bite RNG",
@@ -1523,6 +1554,16 @@
       "desc": "Makes it possible to nyoom with jetfish at even more extreme speeds.",
       "patch": true,
       "order": 50
+    },
+    {
+      "name": "Grapple Colors",
+      "author": "Formal Lizard",
+      "type": "Creature Edits",
+      "url": "https://drive.google.com/file/d/1lf2gfvJ5wNVpAYOJF8dMZu-c0yEorXcj/view",
+      "thumb": "assets/previews/grapplecolors.jpg",
+      "desc": "This mod extends the vanilla range of colors for grapple worms.",
+      "mod": true,
+      "order": 203
     },
 
     {
@@ -2718,6 +2759,7 @@
     { "name": "Vertigo", "author": "12 Steps", "order": 16 },
     { "name": "Well", "author": "Dead_Eye", "order": 1 },
     { "name": "Temple", "author": "Dead_Eye", "order": 1 },
-    { "name": "SkyTower", "author": "Dead_Eye", "order": 1 }
+    { "name": "SkyTower", "author": "Dead_Eye", "order": 1 },
+    { "name": "Slug Loaf", "author": "iKoty", "order": 46 }
   ]
 }
