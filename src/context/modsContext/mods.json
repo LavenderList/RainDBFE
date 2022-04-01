@@ -200,7 +200,7 @@
 
     {
       "name": "Better Shelters",
-      "author": "Tronsx and Thalber",
+      "author": "Tronsx & Thalber",
       "type": "Map Edits",
       "url": "https://github.com/thalber/BetterShelters/releases",
       "thumb": "assets/previews/bettershelters.png",
@@ -249,8 +249,8 @@
 
     {
       "name": "Wing Cat",
-      "author": "Zandra",
-      "author_ext": "ported to BepInEx by topicular",
+      "author": "The Wing Cat Team",
+      "author_ext": "Concept/Art/Design by Minkimaro; Programming by Zandra; Ported to BepInEx Plugin by topicular",
       "type": "Slugcat Abilities",
       "url": "https://drive.google.com/file/d/1KRZVq014-jV8VoUx96GoPu5Y9xbn8QaR/view",
       "thumb": "assets/previews/wingcat.png",
@@ -285,7 +285,7 @@
 
     {
       "name": "Spookcat",
-      "author": "Garrakx and Cappin",
+      "author": "Garrakx & Cappin",
       "type": "Slugcat Abilities",
       "url": "https://drive.google.com/file/d/1LFJw84vhV4_PNDG9C6vAHnTVnMSkHVZm/view",
       "thumb": "assets/previews/spookcat.png",
@@ -436,7 +436,7 @@
 
     {
       "name": "Lizard Customizer",
-      "author": "Ratrat44 and Bigabyte",
+      "author": "Ratrat44 & Bigabyte",
       "type": "Utility",
       "url": "https://drive.google.com/file/d/1QVtHonYnq1N3EDvaCMVxjArX-f1WUbi5/view",
       "thumb": "assets/previews/customlizard.png",
@@ -506,7 +506,7 @@
     },
     {
       "name": "SBCameraScroll",
-      "author": "SchuhBaum and Bee",
+      "author": "SchuhBaum & Bee",
       "type": "Utility",
       "url": "https://drive.google.com/file/d/16mNQ8X0GEo2LodQfK-sO92LMGML6VHDt/view",
       "thumb": "assets/previews/sbcamerascroll.jpg",
@@ -610,7 +610,7 @@
 
     {
       "name": "Random Start",
-      "author": "Willburd and Garrakx",
+      "author": "Willburd & Garrakx",
       "type": "Randomizer",
       "url": "https://drive.google.com/file/d/17WpR48COrVVWuPebobiy_g5R-At6g4l0/view",
       "thumb": "assets/previews/randomStart.png",
@@ -1211,7 +1211,7 @@
 
     {
       "name": "ScoreRush",
-      "author": "Henpemaz and SapphireWine",
+      "author": "Henpemaz & SapphireWine",
       "type": "Game Mode",
       "url": "https://drive.google.com/file/d/1l0qaeqa5JR08m2jQdAYXWLAfPVEda-jV/view",
       "thumb": "assets/previews/scorerush.png",
@@ -1837,7 +1837,7 @@
 
     {
       "name": "A Quiet World",
-      "author": "Bwarch and Garrakx",
+      "author": "Bwarch & Garrakx",
       "type": "Game Tweak",
       "url": "https://drive.google.com/file/d/1hO29nQPJGJcmsfXhnCWCbPoi_mbjGjRE/view",
       "thumb": "assets/previews/nothreat.png",

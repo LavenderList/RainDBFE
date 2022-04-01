@@ -55,7 +55,7 @@ const Filter = () => {
           <input
             type="text"
             placeholder="Search"
-            onChange={() => setSearch("Downpour")}
+            onChange={(e) => setSearch(e.target.value)}
           />
         </div>
         {modCategory == "arenas" ? (
