@@ -5,13 +5,13 @@ export const FilterContext = createContext();
 
 export const FilterProvider = ({ children }) => {
   const [modCategory, setModCategory] = useState("1.5");
-  const [location, setLocation] = useLocation();
+  const [location] = useLocation();
   const [show, setShow] = useState("");
   const [search, setSearch] = useState("");
 
   useEffect(() => {
     setSearch("");
-  }, [location]);
+  }, [location, modCategory]);
 
   return (
     <FilterContext.Provider

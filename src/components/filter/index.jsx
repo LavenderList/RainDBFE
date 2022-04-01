@@ -1,15 +1,17 @@
 import React, { useContext, useEffect } from "react";
 import { FilterContext } from "../../context/filterContext";
+import { useLocation } from "wouter";
 import Select from "../select";
 import style from "./style.module.css";
 
 const Filter = () => {
   const { modCategory, setModCategory, setShow, setSearch } =
     useContext(FilterContext);
+  const [location] = useLocation();
 
   useEffect(() => {
     setShow("all");
-  }, [modCategory]);
+  }, [modCategory, location]);
 
   const optionsModCategory = [
     { value: "1.01", label: "v1.01" },
@@ -53,7 +55,7 @@ const Filter = () => {
           <input
             type="text"
             placeholder="Search"
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={() => setSearch("Downpour")}
           />
         </div>
         {modCategory == "arenas" ? (

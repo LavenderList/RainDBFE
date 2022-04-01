@@ -30,6 +30,7 @@ const Gallery = () => {
                 src={`assets/gallery/thumbnails/${item.filename}`}
                 title={`Author: ${item.author}`}
                 className={styles.lightBoxThumbnail}
+                loading="lazy"
               />
             </Lightbox>
           ))}

@@ -4,11 +4,11 @@ import style from "./style.module.css";
 
 const Background = ({ url }) => {
   const [clickCount, setClickCount] = useState(0);
-  const [location, setLocation] = useLocation();
+  const [, setLocation] = useLocation();
   const handleClick = () => {
     if (clickCount === 2) {
       setClickCount(0);
-      setLocation("/mod/1.8/MoreSlugcats");
+      setLocation("/mod/1.5/Downpour");
     }
     setClickCount(clickCount + 1);
   };

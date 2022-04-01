@@ -11,7 +11,6 @@ import Submit from "./pages/submit";
 import Community from "./pages/community";
 import Nav from "./components/nav";
 import Error404 from "./pages/404";
-import Joke from "./pages/joke";
 import Rollback from "./pages/rollback";
 import TopBtn from "./components/topBtn";
 
@@ -31,7 +30,6 @@ function App() {
               <Route path="/submit" component={Submit} />
               <Route path="/projects" component={Community} />
               <Route path="/rollback" component={Rollback} />
-              <Route path="/mod/1.8/MoreSlugcats" component={Joke} />
               <Route path="/mod/:version/:name" component={ModPage} />
               <Route path="/404" component={Error404} />
               <Route>

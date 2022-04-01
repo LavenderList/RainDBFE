@@ -11,7 +11,7 @@ const Lightbox = ({ children, src, author, Wrapper = "div", index, total }) => {
       {isOpen ? (
         <div className={styles.active}>
           <div className={styles.thumbnail}>
-            <img src={src} />
+            <img src={src} loading="lazy" />
           </div>
           <div className={styles.description}>
             <p>Author: {author}</p>

@@ -35,6 +35,18 @@
       "req": "Requires ConfigMachine and EnumExtender to be installed",
       "order": 179
     },
+    {
+      "name": "Downpour",
+      "author": "The More Slugcats Team",
+      "author_ext": "Much people...",
+      "type": "Full Expansion",
+      "url": "https://store.steampowered.com/app/1933390/Rain_World_Downpour/",
+      "thumb": "assets/previews/downpour.png",
+      "desc": "more slugcats mod.",
+      "patch": true,
+      "video": "https://www.youtube.com/watch?v=tV_4sYpc3YQ",
+      "order": 209
+    },
 
     {
       "name": "Jolly Co-Op Fixes",
@@ -2546,7 +2558,7 @@
       "author": "AndrewFM",
       "type": "Region Revamp",
       "url": "https://ln5.sync.com/dl/aa72cbf60/cc4czu36-4ts3ffpt-7k4ksfas-zvn8rabg",
-      "thumb": "",
+      "thumb": "https://eggzero.serv.pink/img/rainworld/screenshotSI.png?raw=true",
       "desc": "A deadly conversion of the Sky Islands region, infested with Daddy Long Legs. Features zero gravity and many additional rooms not part of the original Sky Islands region."
     },
 
@@ -2573,7 +2585,7 @@
       "author": "AndrewFM",
       "type": "Region Revamp",
       "url": "https://ln5.sync.com/dl/c361fc210/hispye5v-mafu8dat-9sa5gi7k-pxd7746t",
-      "thumb": "",
+      "thumb": "https://eggzero.serv.pink/img/rainworld/screenshotUW.png?raw=true",
       "desc": "A deadly conversion of The Leg, Underhang, and the Wall, infested with Daddy Long Legs.",
       "video": "https://www.youtube.com/watch?v=x3qzYdPNnCo"
     },
