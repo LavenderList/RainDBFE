@@ -46,8 +46,9 @@ const Mods = () => {
       ? filteredMods.filter(
           (mod) =>
             mod.name.toLowerCase().includes(search.toLowerCase()) ||
+            mod.type.toLowerCase().includes(search.toLowerCase()) ||
             mod.author.toLowerCase().includes(search.toLowerCase()) ||
-            mod.author_ext.toLowerCase().includes(search.toLowerCase())
+            (mod.author_ext || "").toLowerCase().includes(search.toLowerCase())
         )
       : filteredMods;
   };
