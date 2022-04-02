@@ -33,7 +33,12 @@ const Mods = () => {
         case "contentMods":
           return mods[modCategory].filter((mod) => mod.content === true);
         case "hookPatch":
-          return mods[modCategory].filter((mod) => mod.patch === true);
+          return mods[modCategory].filter(
+            (mod) =>
+              (mod.patch === true && mod.mod === true) ||
+              mod.mod === true ||
+              mod.patch === true
+          );
         case "standalone":
           return mods[modCategory].filter((mod) => mod.standalone === true);
         default:
