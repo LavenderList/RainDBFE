@@ -18,7 +18,7 @@ nav img {
   object-fit: cover;
   object-position: center;
   image-rendering: pixelated;
-  animation: linear 2s rotateImg infinite;
+  animation: linear 5.5s rotateImg infinite;
 }
 
 @keyframes rotateImg {
