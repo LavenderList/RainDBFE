@@ -57,10 +57,6 @@ const Tutorials = () => {
               Enable/disable mods as you need in BOI using the checkboxes, then
               close BOI and launch Rain World.
             </li>
-            <li>
-              (If you previously had Partiality installed, you need to delete
-              your Managed folder, then rename your Managed_Backup to Managed)
-            </li>
           </ol>
           <h2>Standalone Mods:</h2>
           <p>
@@ -70,17 +66,13 @@ const Tutorials = () => {
           </p>
           <p>
             Navigate to the RainWorld_Data/Managed folder, and replace
-            ‘Assembly-CSharp.dll’ with your modded .dll. If you have Partiality
-            installed, then you will also need to replace the
-            'Assembly-CSharp.dll' file in the RainWorld_Data/Managed_Backup
-            folder.
+            ‘Assembly-CSharp.dll’ with your modded .dll.
           </p>
           <p>
             That’s it, the mod is now installed! To uninstall the mod and revert
             the game to its normal state, right click the game in Steam, and use
             "Verify Integrity of Game Cache". Then restore the save files you
-            backed up. If you have Partiality installed, you will also need to
-            delete the Managed_Backup folder to complete the uninstall.
+            backed up.
           </p>
         </div>
         <div className={styles.column2}>

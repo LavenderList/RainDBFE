@@ -230,7 +230,6 @@
       "url": "https://drive.google.com/file/d/1b_J-ijVMX6RJbMKZURew3lRCCVKHDVue/view",
       "thumb": "assets/previews/easy.png",
       "desc": "A rebalance and overhaul of Rain World's difficulty. Play as The Renegade, a buffed-up combination of the pre-existing slugcats. The journey will be easier.",
-      "req": "Requires PublicityStunt to be installed (only if using Partiality).",
       "mod": true,
       "order": 84
     },
@@ -417,7 +416,7 @@
       "url": "https://cdn.discordapp.com/attachments/481900360324218880/699439245923844126/Fancy_Slugcats.zip",
       "thumb": "assets/previews/fancy.png",
       "desc": "Adds a variety of tools to customize your slugcat, including body proportions, colors, and even custom graphics and assets.",
-      "req": "Requires ConfigMachine and Custom Assets to be installed. (Also, PublicityStunt, only if using Partiality)",
+      "req": "Requires ConfigMachine and Custom Assets to be installed.",
       "mod": true,
       "order": 136
     },
@@ -603,7 +602,7 @@
       "url": "https://drive.google.com/file/d/1xgHC_C15HlYrGFseuVo7UPRpu3gsx4dJ/view",
       "thumb": "assets/previews/enemyRandomizer.png",
       "desc": "Randomizes the creatures that spawn from all dens in the game, meaning any creature can spawn anywhere.",
-      "req": "Requires ConfigMachine to be installed. (Also, PublicityStunt, only if using Partiality)",
+      "req": "Requires ConfigMachine to be installed.",
       "mod": true,
       "order": 118
     },
@@ -745,7 +744,7 @@
       "thumb": "assets/previews/nsh.png",
       "desc": "Lets you play the game as the iterator NSH, who has decided to go for a walk.",
       "mod": true,
-      "req": "Requires ConfigMachine to be installed. (Also PublicityStunt, only if using Partiality)",
+      "req": "Requires ConfigMachine to be installed.",
       "order": 107
     },
 
@@ -896,7 +895,6 @@
       "thumb": "assets/previews/voidworld.png",
       "desc": "Dunks Rain World in the void for a while so that every room in the entire game has the Void Sea's dark, trippy, confusing effect.",
       "mod": true,
-      "req": "Requires PublicityStunt to be installed (only if using Partiality).",
       "order": 99
     },
 
@@ -1043,7 +1041,6 @@
       "url": "https://drive.google.com/file/d/1Ncw1LacgQ2BIFJdovaphjtJKiaqBlaBs/view",
       "thumb": "assets/previews/crafting.png",
       "desc": "Adds the ability to craft certain pairs of two items together to make new items.",
-      "req": "Requires Publicity Stunt to be installed.",
       "mod": true,
       "order": 125
     },
@@ -1204,7 +1201,6 @@
       "url": "https://cdn.discordapp.com/attachments/383654066258968606/649471389170139147/DeerFix.zip",
       "thumb": "assets/previews/deers.png",
       "desc": "Improves Raindeer behavior. Allows you to wiggle in their horns to make them turn around. Also allows modders to use mirobirds and deer in any room they assign them access to.",
-      "req": "Requires PublicityStunt to be installed (only if using Partiality).",
       "mod": true,
       "order": 116
     },
@@ -1441,7 +1437,6 @@
       "thumb": "assets/previews/frenland.png",
       "desc": "Makes tamed lizards and creatures with really high reputation not attack each other.",
       "mod": true,
-      "req": "Requires PublicityStunt to be installed (only if using Partiality).",
       "order": 109
     },
 
@@ -1465,7 +1460,7 @@
       "url": "https://drive.google.com/file/d/1SGJn3uEaiYNSjj2qe_70C77j8jnbFrb-/view",
       "thumb": "assets/previews/waterblobs.png",
       "desc": "A new creature that bounces around, eats batflies, and bursts into edible pieces when killed. For use in custom regions.",
-      "req": "Requires Publicity Stunt, Enum Extender, Sandbox Unlock Core, and Custom Assets to be installed.",
+      "req": "Requires Enum Extender, Sandbox Unlock Core, and Custom Assets to be installed.",
       "mod": true,
       "order": 124
     },
@@ -1619,7 +1614,6 @@
       "thumb": "assets/previews/antiwormgrass.png",
       "desc": "Turns the deadly worm grass into a harmless, mellow background element.",
       "mod": true,
-      "req": "Requires PublicityStunt to be installed (only if using Partiality).",
       "order": 100
     },
 
@@ -1642,7 +1636,7 @@
       "thumb": "assets/previews/chainExplode.png",
       "desc": "Adds six tiers of exponentially multiplying bombs for use in things that require exponentially multiplying bombs.",
       "mod": true,
-      "req": "Requires Publicity Stunt, Enum Extender, Sandbox Unlock Core, and Config Machine to be installed.",
+      "req": "Requires Enum Extender, Sandbox Unlock Core, and Config Machine to be installed.",
       "order": 123
     },
 
@@ -1939,7 +1933,7 @@
       "name": "Flatmode Fix",
       "author": "AndrewFM",
       "type": "Bug Fix",
-      "url": "https://cdn.discordapp.com/attachments/305139167300550666/428732049675911178/PartialityFlatmode.dll",
+      "url": "https://ln5.sync.com/dl/499adfa20/yasjx6c7-9wt8s3ty-792w23hn-y7zi542i",
       "thumb": "assets/previews/flatmode_preview.png",
       "desc": "Fixes the bug that causes the game to crash on the hibernation screen when playing with flatmode.txt.",
       "patch": true,
@@ -1978,6 +1972,17 @@
       "content": true,
       "order": 10,
       "req": "Requires Checksum Fix to be installed."
+    },
+    {
+      "name": "pipis",
+      "author": "Slime_Cubed",
+      "type": "Slugcat Abilities",
+      "url": "https://drive.google.com/file/d/1iBEaDCgi051ciwaceIM7x035FkRUPMzh/view",
+      "thumb": "previews/pipis.png",
+      "desc": "Play as the mysterious \"pipis cat\", a being who has the power to produce pipis out of thin air. Roam the world, hit things with pipis, and uncover the deep lore behind this new character.",
+      "req": "Requires SlugBase and EnumExtender to be installed.",
+      "mod": true,
+      "order": 208
     },
 
     {
@@ -2151,19 +2156,6 @@
       "tool": true,
       "order": 0
     },
-
-    {
-      "name": "PublicityStunt",
-      "author": "Zandra",
-      "type": "Utility",
-      "url": "https://cdn.discordapp.com/attachments/305139167300550666/530462441432416266/PublicityStunt.dll",
-      "thumb": "assets/previews/public.png",
-      "desc": "Changes all private / protected members and functions in the assembly to have public access.",
-      "patch": true,
-      "tool": true,
-      "order": 0
-    },
-
     {
       "name": "EnumExtender",
       "author": "Pastebee",
@@ -2325,7 +2317,7 @@
       "name": "Region Baker",
       "author": "Willburd & Garrakx",
       "type": "Utility",
-      "url": "https://cdn.discordapp.com/attachments/431534164932689921/441951417905840168/Bake_region_partiality.dll",
+      "url": "https://ln5.sync.com/dl/3d18c8630/xk54qnux-usj569gg-i25nkm7h-8gq4nzim",
       "thumb": "assets/previews/baking.png",
       "desc": "Allows you to turn on/off the baking of AI pathmaps into region maps via the presence of a bake.txt file.",
       "patch": true,
@@ -2365,7 +2357,6 @@
       "url": "https://cdn.discordapp.com/attachments/481900360324218880/729814689336262687/VisibleID.dll",
       "thumb": "assets/previews/visibleids.png",
       "desc": "Displays the ID numbers of creatures above their heads. Toggleable with the Tab key.",
-      "req": "Requires PublicityStunt to be installed (only if using Partiality).",
       "mod": true,
       "tool": true,
       "order": 0
@@ -2451,7 +2442,7 @@
       "type": "Utility",
       "url": "https://cdn.discordapp.com/attachments/431534164932689921/701103726785462272/RustyMachine_publicityStuntCompatible_1.dll",
       "thumb": "assets/previews/rustymachine.png",
-      "desc": "Core utility functions to help make Partiality mods. This must be installed for certain partiality mods to function properly.",
+      "desc": "Collection of utility functions for modders. Also some utilities for adding characters to the game, though this has been superseded by SlugBase.",
       "mod": true,
       "tool": true,
       "order": 0
