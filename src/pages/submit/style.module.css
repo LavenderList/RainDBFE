@@ -19,6 +19,7 @@ main > h1 {
 
 section {
   margin: 1em;
+  max-width: 1000px;
 }
 
 section h2 {
