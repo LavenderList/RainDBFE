@@ -245,19 +245,6 @@
       "mod": true,
       "order": 87
     },
-
-    {
-      "name": "Wing Cat",
-      "author": "The Wing Cat Team",
-      "author_ext": "Concept/Art/Design by Minkimaro; Programming by Zandra; Ported to BepInEx Plugin by topicular",
-      "type": "Slugcat Abilities",
-      "url": "https://drive.google.com/file/d/1KRZVq014-jV8VoUx96GoPu5Y9xbn8QaR/view",
-      "thumb": "assets/previews/wingcat.png",
-      "desc": "Gives slugcat wings and the ability to fly. Activate the ability by tapping jump while in the air.",
-      "mod": true,
-      "order": 27
-    },
-
     {
       "name": "The Martyr",
       "author": "The EchoCat Team",
@@ -1665,11 +1652,11 @@
     {
       "name": "Mushcat",
       "author": "Fyre",
+      "author_ext": "Ported by Bee",
       "type": "Game Tweak",
-      "url": "https://cdn.discordapp.com/attachments/305139167300550666/438158570605772800/Mushcat.dll",
+      "url": "https://beestuff.pythonanywhere.com/audb/api/mods/0/53/download/latest",
       "thumb": "assets/previews/mushcat.png",
       "desc": "Allows you to toggle the time-slow effect from mushrooms on/off at any time by tapping the map button.",
-      "req": "Requires Rusty Machine to be installed.",
       "mod": true,
       "order": 29
     },
